@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+em Python para simular o cadastro básico de pacientes e o cálculo de estatísticas essenciais para a Clínica Vida+.
+
+O programa foi construído com base em uma estrutura de menu interativo, permitindo que o usuário navegue entre as funcionalidades principais: cadastrar, buscar, listar e ver estatísticas. A funcionalidade é mantida por um loop principal até que a opção de sair seja escolhida.
+
+Para o armazenamento dos dados, foram utilizadas as estruturas de dados recomendadas:
+
+Uma lista (pacientes) foi empregada como a estrutura principal, atuando como o banco de dados temporário do sistema.
+
+Cada paciente é representado por um dicionário contendo as chaves 'nome', 'idade' e 'telefone', garantindo a organização das informações.
+
+Destaques da Implementação:
+
+Estatísticas: Foram implementadas funções para calcular dinamicamente o número total de pacientes, a idade média, e identificar o paciente mais novo e o mais velho na lista.
+
+Busca e Listagem: A função de busca permite encontrar pacientes pelo nome, enquanto a função de listagem exibe todos os pacientes de forma organizada.
+
+Tratamento de Erros: Mecanismos de try-except foram incluídos para tratar entradas inválidas (como digitar texto onde é esperada a idade), aumentando a robustez do sistema.
+
+Este código atende à necessidade inicial da Sra. Helena de ter um sistema simples para gerenciar os dados demográficos e estatísticos básicos dos pacientes da clínica.
